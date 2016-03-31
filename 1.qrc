@@ -1,0 +1,28 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>images/1.jpg</file>
+        <file>images/Actions-edit-clear-icon.png</file>
+        <file>images/document-decrypt.png</file>
+        <file>images/img8.jpg</file>
+        <file>images/INDUSTRIAL SYSTEM SYSTEM FOLDER (X).png</file>
+        <file>images/logo_axcrypt.png</file>
+        <file>images/Program Group.png</file>
+        <file>images/copy-icon.png</file>
+        <file>images/open-file-icon.png</file>
+        <file>images/paste.png</file>
+        <file>images/Save-icon.png</file>
+        <file>images/document_encrypted_gold.png</file>
+        <file>images/text-plain-icon.png</file>
+        <file>images/1223615532442623843djmx1_cadenas_1.svg.hi.png</file>
+        <file>images/Key-Lock-512.png</file>
+        <file>images/Security Centre.png</file>
+        <file>images/Security-Icon-FINAL-cropped.png</file>
+        <file>images/535106-user_512x512.png</file>
+        <file>images/cesar.png</file>
+        <file>images/che.png</file>
+        <file>images/rot.png</file>
+        <file>images/RSA1.png</file>
+        <file>images/vernam.png</file>
+        <file>images/vigenere.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,4209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="windowModality">
+   <enum>Qt::WindowModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>951</width>
+    <height>683</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>950</width>
+    <height>550</height>
+   </size>
+  </property>
+  <property name="palette">
+   <palette>
+    <active>
+     <colorrole role="WindowText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Button">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>77</red>
+        <green>77</green>
+        <blue>77</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Light">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>115</red>
+        <green>115</green>
+        <blue>115</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Midlight">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>96</red>
+        <green>96</green>
+        <blue>96</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Dark">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>38</red>
+        <green>38</green>
+        <blue>38</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Mid">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>51</red>
+        <green>51</green>
+        <blue>51</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Text">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="BrightText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="ButtonText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Base">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>77</red>
+        <green>77</green>
+        <blue>77</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Shadow">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="AlternateBase">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>38</red>
+        <green>38</green>
+        <blue>38</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="ToolTipBase">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>220</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="ToolTipText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </active>
+    <inactive>
+     <colorrole role="WindowText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Button">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>77</red>
+        <green>77</green>
+        <blue>77</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Light">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>115</red>
+        <green>115</green>
+        <blue>115</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Midlight">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>96</red>
+        <green>96</green>
+        <blue>96</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Dark">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>38</red>
+        <green>38</green>
+        <blue>38</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Mid">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>51</red>
+        <green>51</green>
+        <blue>51</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Text">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="BrightText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="ButtonText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Base">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>77</red>
+        <green>77</green>
+        <blue>77</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Shadow">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="AlternateBase">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>38</red>
+        <green>38</green>
+        <blue>38</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="ToolTipBase">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>220</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="ToolTipText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </inactive>
+    <disabled>
+     <colorrole role="WindowText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>38</red>
+        <green>38</green>
+        <blue>38</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Button">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>77</red>
+        <green>77</green>
+        <blue>77</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Light">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>115</red>
+        <green>115</green>
+        <blue>115</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Midlight">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>96</red>
+        <green>96</green>
+        <blue>96</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Dark">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>38</red>
+        <green>38</green>
+        <blue>38</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Mid">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>51</red>
+        <green>51</green>
+        <blue>51</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Text">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>38</red>
+        <green>38</green>
+        <blue>38</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="BrightText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="ButtonText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>38</red>
+        <green>38</green>
+        <blue>38</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Base">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>77</red>
+        <green>77</green>
+        <blue>77</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>77</red>
+        <green>77</green>
+        <blue>77</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="Shadow">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="AlternateBase">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>77</red>
+        <green>77</green>
+        <blue>77</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="ToolTipBase">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>255</green>
+        <blue>220</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="ToolTipText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </disabled>
+   </palette>
+  </property>
+  <property name="mouseTracking">
+   <bool>true</bool>
+  </property>
+  <property name="focusPolicy">
+   <enum>Qt::TabFocus</enum>
+  </property>
+  <property name="acceptDrops">
+   <bool>true</bool>
+  </property>
+  <property name="windowTitle">
+   <string>Application de cryptage</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="1.qrc">
+    <normaloff>:/images/images/Security-Icon-FINAL-cropped.png</normaloff>:/images/images/Security-Icon-FINAL-cropped.png</iconset>
+  </property>
+  <property name="iconSize">
+   <size>
+    <width>80</width>
+    <height>80</height>
+   </size>
+  </property>
+  <property name="toolButtonStyle">
+   <enum>Qt::ToolButtonIconOnly</enum>
+  </property>
+  <property name="animated">
+   <bool>false</bool>
+  </property>
+  <property name="documentMode">
+   <bool>false</bool>
+  </property>
+  <property name="tabShape">
+   <enum>QTabWidget::Rounded</enum>
+  </property>
+  <property name="dockNestingEnabled">
+   <bool>true</bool>
+  </property>
+  <property name="dockOptions">
+   <set>QMainWindow::AllowNestedDocks|QMainWindow::AllowTabbedDocks</set>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="whatsThis">
+       <string/>
+      </property>
+      <property name="autoFillBackground">
+       <bool>true</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QTabBar::tab 
+{
+    background: #B0C4DE;
+    color: white;   
+    border-color: #48555E;
+}
+
+QTabBar::tab:selected, QTabBar::tab:hover 
+{
+    border-top-color: #1D2A32;
+    border-color: #40494E;
+    color: black;
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #C1D8E8, stop: 1 #F0F5F8); 
+}</string>
+      </property>
+      <property name="tabPosition">
+       <enum>QTabWidget::West</enum>
+      </property>
+      <property name="currentIndex">
+       <number>5</number>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>50</width>
+        <height>250</height>
+       </size>
+      </property>
+      <property name="elideMode">
+       <enum>Qt::ElideNone</enum>
+      </property>
+      <property name="usesScrollButtons">
+       <bool>false</bool>
+      </property>
+      <property name="documentMode">
+       <bool>true</bool>
+      </property>
+      <property name="tabsClosable">
+       <bool>false</bool>
+      </property>
+      <property name="movable">
+       <bool>true</bool>
+      </property>
+      <property name="tabBarAutoHide">
+       <bool>true</bool>
+      </property>
+      <widget class="QWidget" name="zz">
+       <attribute name="icon">
+        <iconset resource="1.qrc">
+         <normaloff>:/images/images/rot.png</normaloff>:/images/images/rot.png</iconset>
+       </attribute>
+       <attribute name="title">
+        <string/>
+       </attribute>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="QFrame" name="frame">
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Plain</enum>
+          </property>
+          <property name="lineWidth">
+           <number>3</number>
+          </property>
+          <property name="midLineWidth">
+           <number>3</number>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_2">
+           <property name="sizeConstraint">
+            <enum>QLayout::SetDefaultConstraint</enum>
+           </property>
+           <item>
+            <layout class="QGridLayout" name="gridLayout">
+             <property name="leftMargin">
+              <number>10</number>
+             </property>
+             <item row="0" column="0">
+              <layout class="QGridLayout" name="gridLayout_7">
+               <item row="2" column="0">
+                <widget class="QLabel" name="label_6">
+                 <property name="text">
+                  <string> Texte Clair</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="3" column="0">
+                <spacer name="verticalSpacer_5">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>20</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+               <item row="0" column="0">
+                <spacer name="verticalSpacer_6">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>20</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+               <item row="1" column="0">
+                <widget class="QLabel" name="label_5">
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="pixmap">
+                  <pixmap resource="1.qrc">:/images/images/text-plain-icon.png</pixmap>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item row="6" column="3">
+              <layout class="QGridLayout" name="gridLayout_5">
+               <item row="0" column="0">
+                <widget class="QToolButton" name="toolButton_6">
+                 <property name="text">
+                  <string>  Enregistrer </string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="1.qrc">
+                   <normaloff>:/images/images/Save-icon.png</normaloff>:/images/images/Save-icon.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>48</width>
+                   <height>48</height>
+                  </size>
+                 </property>
+                 <property name="toolButtonStyle">
+                  <enum>Qt::ToolButtonTextUnderIcon</enum>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="0">
+                <widget class="QToolButton" name="toolButton_10">
+                 <property name="text">
+                  <string>     Copier     </string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="1.qrc">
+                   <normaloff>:/images/images/copy-icon.png</normaloff>:/images/images/copy-icon.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>48</width>
+                   <height>48</height>
+                  </size>
+                 </property>
+                 <property name="toolButtonStyle">
+                  <enum>Qt::ToolButtonTextUnderIcon</enum>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item row="4" column="1">
+              <layout class="QGridLayout" name="gridLayout_2">
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <item row="0" column="1">
+                <widget class="QToolButton" name="toolButton_5">
+                 <property name="text">
+                  <string>Nettoyer</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="1.qrc">
+                   <normaloff>:/images/images/Actions-edit-clear-icon.png</normaloff>:/images/images/Actions-edit-clear-icon.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>32</width>
+                   <height>32</height>
+                  </size>
+                 </property>
+                 <property name="toolButtonStyle">
+                  <enum>Qt::ToolButtonTextBesideIcon</enum>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="0">
+                <widget class="QToolButton" name="toolButton_3">
+                 <property name="styleSheet">
+                  <string notr="true">qlineargradien t(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 0, 0, 255), stop:0.166 rgba(255, 255, 0, 255), stop:0.333 rgba(0, 255, 0, 255), stop:0.5 rgba(0, 255, 255, 255), stop:0.666 rgba(0, 0, 255, 255), stop:0.833 rgba(255, 0, 255, 255), stop:1 rgba(255, 0, 0, 255))</string>
+                 </property>
+                 <property name="text">
+                  <string>Crypter</string>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>32</width>
+                   <height>32</height>
+                  </size>
+                 </property>
+                 <property name="toolButtonStyle">
+                  <enum>Qt::ToolButtonTextBesideIcon</enum>
+                 </property>
+                 <property name="arrowType">
+                  <enum>Qt::DownArrow</enum>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item row="7" column="1">
+              <layout class="QGridLayout" name="gridLayout_3">
+               <property name="leftMargin">
+                <number>10</number>
+               </property>
+               <property name="topMargin">
+                <number>10</number>
+               </property>
+              </layout>
+             </item>
+             <item row="0" column="3">
+              <layout class="QGridLayout" name="gridLayout_4">
+               <item row="0" column="0">
+                <widget class="QToolButton" name="toolButton">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+                   <horstretch>0</horstretch>
+                   <verstretch>60</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="text">
+                  <string>Ouvrir Fichier</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="1.qrc">
+                   <normaloff>:/images/images/open-file-icon.png</normaloff>:/images/images/open-file-icon.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>48</width>
+                   <height>48</height>
+                  </size>
+                 </property>
+                 <property name="toolButtonStyle">
+                  <enum>Qt::ToolButtonTextUnderIcon</enum>
+                 </property>
+                 <property name="autoRaise">
+                  <bool>false</bool>
+                 </property>
+                 <property name="arrowType">
+                  <enum>Qt::NoArrow</enum>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="0">
+                <widget class="QToolButton" name="toolButton_2">
+                 <property name="text">
+                  <string>      Coller      </string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="1.qrc">
+                   <normaloff>:/images/images/paste.png</normaloff>:/images/images/paste.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>48</width>
+                   <height>48</height>
+                  </size>
+                 </property>
+                 <property name="toolButtonStyle">
+                  <enum>Qt::ToolButtonTextUnderIcon</enum>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item row="0" column="1">
+              <widget class="QTextEdit" name="textEdit">
+               <property name="font">
+                <font>
+                 <pointsize>12</pointsize>
+                </font>
+               </property>
+              </widget>
+             </item>
+             <item row="5" column="1">
+              <spacer name="verticalSpacer_2">
+               <property name="orientation">
+                <enum>Qt::Vertical</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>20</width>
+                 <height>40</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item row="3" column="1">
+              <spacer name="verticalSpacer">
+               <property name="orientation">
+                <enum>Qt::Vertical</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>20</width>
+                 <height>40</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item row="0" column="2">
+              <spacer name="horizontalSpacer_2">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeType">
+                <enum>QSizePolicy::Minimum</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item row="2" column="0">
+              <layout class="QGridLayout" name="gridLayout_6">
+               <item row="0" column="0">
+                <widget class="QLabel" name="label">
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="pixmap">
+                  <pixmap resource="1.qrc">:/images/images/logo_axcrypt.png</pixmap>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="0">
+                <widget class="QLabel" name="label_2">
+                 <property name="text">
+                  <string>     Clef</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item row="2" column="1">
+              <widget class="QLabel" name="label_37">
+               <property name="font">
+                <font>
+                 <pointsize>23</pointsize>
+                </font>
+               </property>
+               <property name="toolTip">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;La valeur de la clef de l'algorithme de cryptage Rot13 est 13 &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+               <property name="text">
+                <string>            13</string>
+               </property>
+              </widget>
+             </item>
+             <item row="6" column="0">
+              <layout class="QGridLayout" name="gridLayout_8">
+               <item row="1" column="0">
+                <widget class="QLabel" name="label_3">
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="pixmap">
+                  <pixmap resource="1.qrc">:/images/images/document_encrypted_gold.png</pixmap>
+                 </property>
+                </widget>
+               </item>
+               <item row="3" column="0">
+                <spacer name="verticalSpacer_3">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>20</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+               <item row="2" column="0">
+                <widget class="QLabel" name="label_4">
+                 <property name="text">
+                  <string>Texte crypté</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="0">
+                <spacer name="verticalSpacer_4">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>20</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+              </layout>
+             </item>
+             <item row="6" column="1">
+              <widget class="QPlainTextEdit" name="plainTextEdit">
+               <property name="font">
+                <font>
+                 <family>Arial</family>
+                 <pointsize>12</pointsize>
+                </font>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab">
+       <attribute name="icon">
+        <iconset resource="1.qrc">
+         <normaloff>:/images/images/cesar.png</normaloff>:/images/images/cesar.png</iconset>
+       </attribute>
+       <attribute name="title">
+        <string/>
+       </attribute>
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <item>
+         <widget class="QFrame" name="frame_2">
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Plain</enum>
+          </property>
+          <property name="lineWidth">
+           <number>3</number>
+          </property>
+          <property name="midLineWidth">
+           <number>3</number>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_3">
+           <property name="sizeConstraint">
+            <enum>QLayout::SetDefaultConstraint</enum>
+           </property>
+           <item>
+            <layout class="QGridLayout" name="gridLayout_9">
+             <property name="leftMargin">
+              <number>10</number>
+             </property>
+             <item row="0" column="0">
+              <layout class="QGridLayout" name="gridLayout_10">
+               <item row="2" column="0">
+                <widget class="QLabel" name="label_7">
+                 <property name="text">
+                  <string> Texte Clair</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="3" column="0">
+                <spacer name="verticalSpacer_7">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>20</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+               <item row="0" column="0">
+                <spacer name="verticalSpacer_8">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>20</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+               <item row="1" column="0">
+                <widget class="QLabel" name="label_8">
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="pixmap">
+                  <pixmap resource="1.qrc">:/images/images/text-plain-icon.png</pixmap>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item row="6" column="3">
+              <layout class="QGridLayout" name="gridLayout_11">
+               <item row="0" column="0">
+                <widget class="QToolButton" name="toolButton_7">
+                 <property name="text">
+                  <string>  Enregistrer </string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="1.qrc">
+                   <normaloff>:/images/images/Save-icon.png</normaloff>:/images/images/Save-icon.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>48</width>
+                   <height>48</height>
+                  </size>
+                 </property>
+                 <property name="toolButtonStyle">
+                  <enum>Qt::ToolButtonTextUnderIcon</enum>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="0">
+                <widget class="QToolButton" name="toolButton_11">
+                 <property name="text">
+                  <string>     Copier     </string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="1.qrc">
+                   <normaloff>:/images/images/copy-icon.png</normaloff>:/images/images/copy-icon.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>48</width>
+                   <height>48</height>
+                  </size>
+                 </property>
+                 <property name="toolButtonStyle">
+                  <enum>Qt::ToolButtonTextUnderIcon</enum>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item row="4" column="1">
+              <layout class="QGridLayout" name="gridLayout_12">
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <item row="0" column="1">
+                <widget class="QToolButton" name="toolButton_9">
+                 <property name="text">
+                  <string>Nettoyer</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="1.qrc">
+                   <normaloff>:/images/images/Actions-edit-clear-icon.png</normaloff>:/images/images/Actions-edit-clear-icon.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>32</width>
+                   <height>32</height>
+                  </size>
+                 </property>
+                 <property name="toolButtonStyle">
+                  <enum>Qt::ToolButtonTextBesideIcon</enum>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="0">
+                <widget class="QToolButton" name="toolButton_8">
+                 <property name="text">
+                  <string>Crypter</string>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>32</width>
+                   <height>32</height>
+                  </size>
+                 </property>
+                 <property name="toolButtonStyle">
+                  <enum>Qt::ToolButtonTextBesideIcon</enum>
+                 </property>
+                 <property name="arrowType">
+                  <enum>Qt::DownArrow</enum>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item row="0" column="3">
+              <layout class="QGridLayout" name="gridLayout_13">
+               <item row="0" column="0">
+                <widget class="QToolButton" name="toolButton_13">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+                   <horstretch>0</horstretch>
+                   <verstretch>60</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="text">
+                  <string>Ouvrir Fichier</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="1.qrc">
+                   <normaloff>:/images/images/open-file-icon.png</normaloff>:/images/images/open-file-icon.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>48</width>
+                   <height>48</height>
+                  </size>
+                 </property>
+                 <property name="toolButtonStyle">
+                  <enum>Qt::ToolButtonTextUnderIcon</enum>
+                 </property>
+                 <property name="autoRaise">
+                  <bool>false</bool>
+                 </property>
+                 <property name="arrowType">
+                  <enum>Qt::NoArrow</enum>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="0">
+                <widget class="QToolButton" name="toolButton_14">
+                 <property name="text">
+                  <string>      Coller      </string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="1.qrc">
+                   <normaloff>:/images/images/paste.png</normaloff>:/images/images/paste.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>48</width>
+                   <height>48</height>
+                  </size>
+                 </property>
+                 <property name="toolButtonStyle">
+                  <enum>Qt::ToolButtonTextUnderIcon</enum>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item row="7" column="1">
+              <layout class="QGridLayout" name="gridLayout_14">
+               <property name="leftMargin">
+                <number>10</number>
+               </property>
+               <property name="topMargin">
+                <number>10</number>
+               </property>
+              </layout>
+             </item>
+             <item row="6" column="1">
+              <widget class="QPlainTextEdit" name="plainTextEdit_2">
+               <property name="font">
+                <font>
+                 <pointsize>12</pointsize>
+                </font>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="1">
+              <spacer name="verticalSpacer_9">
+               <property name="orientation">
+                <enum>Qt::Vertical</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>20</width>
+                 <height>40</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item row="0" column="1">
+              <widget class="QTextEdit" name="textEdit_2">
+               <property name="font">
+                <font>
+                 <pointsize>12</pointsize>
+                </font>
+               </property>
+              </widget>
+             </item>
+             <item row="5" column="1">
+              <spacer name="verticalSpacer_10">
+               <property name="orientation">
+                <enum>Qt::Vertical</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>20</width>
+                 <height>40</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item row="0" column="2">
+              <spacer name="horizontalSpacer_3">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeType">
+                <enum>QSizePolicy::Minimum</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item row="2" column="0">
+              <layout class="QGridLayout" name="gridLayout_15">
+               <item row="0" column="0">
+                <widget class="QLabel" name="label_9">
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="pixmap">
+                  <pixmap resource="1.qrc">:/images/images/logo_axcrypt.png</pixmap>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="0">
+                <widget class="QLabel" name="label_10">
+                 <property name="text">
+                  <string>     Clef</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item row="6" column="0">
+              <layout class="QGridLayout" name="gridLayout_16">
+               <item row="1" column="0">
+                <widget class="QLabel" name="label_11">
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="pixmap">
+                  <pixmap resource="1.qrc">:/images/images/document_encrypted_gold.png</pixmap>
+                 </property>
+                </widget>
+               </item>
+               <item row="3" column="0">
+                <spacer name="verticalSpacer_11">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>20</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+               <item row="2" column="0">
+                <widget class="QLabel" name="label_12">
+                 <property name="text">
+                  <string>Texte crypté</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="0">
+                <spacer name="verticalSpacer_12">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>20</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+              </layout>
+             </item>
+             <item row="2" column="1">
+              <layout class="QGridLayout" name="gridLayout_35">
+               <item row="0" column="0">
+                <widget class="QLineEdit" name="lineEdit_2">
+                 <property name="toolTip">
+                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Vous pourriez modifier cette valeur avec un entier compris entre 0 et 26&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                 </property>
+                 <property name="statusTip">
+                  <string/>
+                 </property>
+                 <property name="whatsThis">
+                  <string/>
+                 </property>
+                 <property name="text">
+                  <string>10</string>
+                 </property>
+                 <property name="clearButtonEnabled">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_3">
+       <attribute name="icon">
+        <iconset resource="1.qrc">
+         <normaloff>:/images/images/che.png</normaloff>:/images/images/che.png</iconset>
+       </attribute>
+       <attribute name="title">
+        <string/>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_5">
+        <item>
+         <widget class="QFrame" name="frame_3">
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Plain</enum>
+          </property>
+          <property name="lineWidth">
+           <number>3</number>
+          </property>
+          <property name="midLineWidth">
+           <number>3</number>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_4">
+           <property name="sizeConstraint">
+            <enum>QLayout::SetDefaultConstraint</enum>
+           </property>
+           <item>
+            <layout class="QGridLayout" name="gridLayout_17">
+             <property name="leftMargin">
+              <number>10</number>
+             </property>
+             <item row="0" column="0">
+              <layout class="QGridLayout" name="gridLayout_18">
+               <item row="2" column="0">
+                <widget class="QLabel" name="label_13">
+                 <property name="text">
+                  <string> Texte Clair</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="3" column="0">
+                <spacer name="verticalSpacer_13">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>20</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+               <item row="0" column="0">
+                <spacer name="verticalSpacer_14">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>20</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+               <item row="1" column="0">
+                <widget class="QLabel" name="label_14">
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="pixmap">
+                  <pixmap resource="1.qrc">:/images/images/text-plain-icon.png</pixmap>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item row="6" column="3">
+              <layout class="QGridLayout" name="gridLayout_19">
+               <item row="0" column="0">
+                <widget class="QToolButton" name="toolButton_15">
+                 <property name="text">
+                  <string>  Enregistrer </string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="1.qrc">
+                   <normaloff>:/images/images/Save-icon.png</normaloff>:/images/images/Save-icon.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>48</width>
+                   <height>48</height>
+                  </size>
+                 </property>
+                 <property name="toolButtonStyle">
+                  <enum>Qt::ToolButtonTextUnderIcon</enum>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="0">
+                <widget class="QToolButton" name="toolButton_16">
+                 <property name="text">
+                  <string>     Copier     </string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="1.qrc">
+                   <normaloff>:/images/images/copy-icon.png</normaloff>:/images/images/copy-icon.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>48</width>
+                   <height>48</height>
+                  </size>
+                 </property>
+                 <property name="toolButtonStyle">
+                  <enum>Qt::ToolButtonTextUnderIcon</enum>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item row="4" column="1">
+              <layout class="QGridLayout" name="gridLayout_20">
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <item row="0" column="1">
+                <widget class="QToolButton" name="toolButton_18">
+                 <property name="text">
+                  <string>Nettoyer</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="1.qrc">
+                   <normaloff>:/images/images/Actions-edit-clear-icon.png</normaloff>:/images/images/Actions-edit-clear-icon.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>32</width>
+                   <height>32</height>
+                  </size>
+                 </property>
+                 <property name="toolButtonStyle">
+                  <enum>Qt::ToolButtonTextBesideIcon</enum>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="0">
+                <widget class="QToolButton" name="toolButton_17">
+                 <property name="text">
+                  <string>Crypter</string>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>32</width>
+                   <height>32</height>
+                  </size>
+                 </property>
+                 <property name="toolButtonStyle">
+                  <enum>Qt::ToolButtonTextBesideIcon</enum>
+                 </property>
+                 <property name="arrowType">
+                  <enum>Qt::DownArrow</enum>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item row="0" column="3">
+              <layout class="QGridLayout" name="gridLayout_21">
+               <item row="0" column="0">
+                <widget class="QToolButton" name="toolButton_20">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+                   <horstretch>0</horstretch>
+                   <verstretch>60</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="text">
+                  <string>Ouvrir Fichier</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="1.qrc">
+                   <normaloff>:/images/images/open-file-icon.png</normaloff>:/images/images/open-file-icon.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>48</width>
+                   <height>48</height>
+                  </size>
+                 </property>
+                 <property name="toolButtonStyle">
+                  <enum>Qt::ToolButtonTextUnderIcon</enum>
+                 </property>
+                 <property name="autoRaise">
+                  <bool>false</bool>
+                 </property>
+                 <property name="arrowType">
+                  <enum>Qt::NoArrow</enum>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="0">
+                <widget class="QToolButton" name="toolButton_21">
+                 <property name="text">
+                  <string>      Coller      </string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="1.qrc">
+                   <normaloff>:/images/images/paste.png</normaloff>:/images/images/paste.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>48</width>
+                   <height>48</height>
+                  </size>
+                 </property>
+                 <property name="toolButtonStyle">
+                  <enum>Qt::ToolButtonTextUnderIcon</enum>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item row="7" column="1">
+              <layout class="QGridLayout" name="gridLayout_22">
+               <property name="leftMargin">
+                <number>10</number>
+               </property>
+               <property name="topMargin">
+                <number>10</number>
+               </property>
+              </layout>
+             </item>
+             <item row="2" column="1">
+              <widget class="QLineEdit" name="lineEdit_3">
+               <property name="toolTip">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Vous pourriez modifier cette valeur avec un entier de 5 chiffres&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+               <property name="inputMask">
+                <string/>
+               </property>
+               <property name="text">
+                <string>12345</string>
+               </property>
+               <property name="cursorMoveStyle">
+                <enum>Qt::VisualMoveStyle</enum>
+               </property>
+               <property name="clearButtonEnabled">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="6" column="1">
+              <widget class="QPlainTextEdit" name="plainTextEdit_3">
+               <property name="font">
+                <font>
+                 <pointsize>12</pointsize>
+                </font>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="1">
+              <spacer name="verticalSpacer_15">
+               <property name="orientation">
+                <enum>Qt::Vertical</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>20</width>
+                 <height>40</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item row="0" column="1">
+              <widget class="QTextEdit" name="textEdit_3">
+               <property name="font">
+                <font>
+                 <pointsize>12</pointsize>
+                </font>
+               </property>
+              </widget>
+             </item>
+             <item row="5" column="1">
+              <spacer name="verticalSpacer_16">
+               <property name="orientation">
+                <enum>Qt::Vertical</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>20</width>
+                 <height>40</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item row="0" column="2">
+              <spacer name="horizontalSpacer_4">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeType">
+                <enum>QSizePolicy::Minimum</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item row="2" column="0">
+              <layout class="QGridLayout" name="gridLayout_23">
+               <item row="0" column="0">
+                <widget class="QLabel" name="label_15">
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="pixmap">
+                  <pixmap resource="1.qrc">:/images/images/logo_axcrypt.png</pixmap>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="0">
+                <widget class="QLabel" name="label_16">
+                 <property name="text">
+                  <string>     Clef</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item row="6" column="0">
+              <layout class="QGridLayout" name="gridLayout_24">
+               <item row="1" column="0">
+                <widget class="QLabel" name="label_17">
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="pixmap">
+                  <pixmap resource="1.qrc">:/images/images/document_encrypted_gold.png</pixmap>
+                 </property>
+                </widget>
+               </item>
+               <item row="3" column="0">
+                <spacer name="verticalSpacer_17">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>20</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+               <item row="2" column="0">
+                <widget class="QLabel" name="label_18">
+                 <property name="text">
+                  <string>Texte crypté</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="0">
+                <spacer name="verticalSpacer_18">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>20</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_4">
+       <attribute name="icon">
+        <iconset resource="1.qrc">
+         <normaloff>:/images/images/vigenere.png</normaloff>:/images/images/vigenere.png</iconset>
+       </attribute>
+       <attribute name="title">
+        <string/>
+       </attribute>
+       <layout class="QHBoxLayout" name="horizontalLayout_3">
+        <item>
+         <widget class="QFrame" name="frame_4">
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Plain</enum>
+          </property>
+          <property name="lineWidth">
+           <number>3</number>
+          </property>
+          <property name="midLineWidth">
+           <number>3</number>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_6">
+           <property name="sizeConstraint">
+            <enum>QLayout::SetDefaultConstraint</enum>
+           </property>
+           <item>
+            <layout class="QGridLayout" name="gridLayout_25">
+             <property name="leftMargin">
+              <number>10</number>
+             </property>
+             <item row="0" column="0">
+              <layout class="QGridLayout" name="gridLayout_26">
+               <item row="2" column="0">
+                <widget class="QLabel" name="label_19">
+                 <property name="text">
+                  <string> Texte Clair</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="3" column="0">
+                <spacer name="verticalSpacer_19">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>20</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+               <item row="0" column="0">
+                <spacer name="verticalSpacer_20">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>20</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+               <item row="1" column="0">
+                <widget class="QLabel" name="label_20">
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="pixmap">
+                  <pixmap resource="1.qrc">:/images/images/text-plain-icon.png</pixmap>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item row="6" column="3">
+              <layout class="QGridLayout" name="gridLayout_27">
+               <item row="0" column="0">
+                <widget class="QToolButton" name="toolButton_22">
+                 <property name="text">
+                  <string>  Enregistrer </string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="1.qrc">
+                   <normaloff>:/images/images/Save-icon.png</normaloff>:/images/images/Save-icon.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>48</width>
+                   <height>48</height>
+                  </size>
+                 </property>
+                 <property name="toolButtonStyle">
+                  <enum>Qt::ToolButtonTextUnderIcon</enum>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="0">
+                <widget class="QToolButton" name="toolButton_23">
+                 <property name="text">
+                  <string>     Copier     </string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="1.qrc">
+                   <normaloff>:/images/images/copy-icon.png</normaloff>:/images/images/copy-icon.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>48</width>
+                   <height>48</height>
+                  </size>
+                 </property>
+                 <property name="toolButtonStyle">
+                  <enum>Qt::ToolButtonTextUnderIcon</enum>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item row="4" column="1">
+              <layout class="QGridLayout" name="gridLayout_28">
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <item row="0" column="0">
+                <widget class="QToolButton" name="toolButton_24">
+                 <property name="text">
+                  <string>Crypter</string>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>32</width>
+                   <height>32</height>
+                  </size>
+                 </property>
+                 <property name="toolButtonStyle">
+                  <enum>Qt::ToolButtonTextBesideIcon</enum>
+                 </property>
+                 <property name="arrowType">
+                  <enum>Qt::DownArrow</enum>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="1">
+                <widget class="QToolButton" name="toolButton_25">
+                 <property name="text">
+                  <string>Nettoyer</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="1.qrc">
+                   <normaloff>:/images/images/Actions-edit-clear-icon.png</normaloff>:/images/images/Actions-edit-clear-icon.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>32</width>
+                   <height>32</height>
+                  </size>
+                 </property>
+                 <property name="toolButtonStyle">
+                  <enum>Qt::ToolButtonTextBesideIcon</enum>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item row="0" column="3">
+              <layout class="QGridLayout" name="gridLayout_29">
+               <item row="0" column="0">
+                <widget class="QToolButton" name="toolButton_27">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+                   <horstretch>0</horstretch>
+                   <verstretch>60</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="text">
+                  <string>Ouvrir Fichier</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="1.qrc">
+                   <normaloff>:/images/images/open-file-icon.png</normaloff>:/images/images/open-file-icon.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>48</width>
+                   <height>48</height>
+                  </size>
+                 </property>
+                 <property name="toolButtonStyle">
+                  <enum>Qt::ToolButtonTextUnderIcon</enum>
+                 </property>
+                 <property name="autoRaise">
+                  <bool>false</bool>
+                 </property>
+                 <property name="arrowType">
+                  <enum>Qt::NoArrow</enum>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="0">
+                <widget class="QToolButton" name="toolButton_28">
+                 <property name="text">
+                  <string>      Coller      </string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="1.qrc">
+                   <normaloff>:/images/images/paste.png</normaloff>:/images/images/paste.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>48</width>
+                   <height>48</height>
+                  </size>
+                 </property>
+                 <property name="toolButtonStyle">
+                  <enum>Qt::ToolButtonTextUnderIcon</enum>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item row="7" column="1">
+              <layout class="QGridLayout" name="gridLayout_30">
+               <property name="leftMargin">
+                <number>10</number>
+               </property>
+               <property name="topMargin">
+                <number>10</number>
+               </property>
+              </layout>
+             </item>
+             <item row="2" column="1">
+              <widget class="QLineEdit" name="lineEdit_4">
+               <property name="toolTip">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Vous pourriez modifier cette chaine&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+               <property name="text">
+                <string>Bonjour</string>
+               </property>
+               <property name="clearButtonEnabled">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="6" column="1">
+              <widget class="QPlainTextEdit" name="plainTextEdit_4">
+               <property name="font">
+                <font>
+                 <pointsize>12</pointsize>
+                </font>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="1">
+              <spacer name="verticalSpacer_21">
+               <property name="orientation">
+                <enum>Qt::Vertical</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>20</width>
+                 <height>40</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item row="0" column="1">
+              <widget class="QTextEdit" name="textEdit_4">
+               <property name="font">
+                <font>
+                 <pointsize>12</pointsize>
+                </font>
+               </property>
+              </widget>
+             </item>
+             <item row="5" column="1">
+              <spacer name="verticalSpacer_22">
+               <property name="orientation">
+                <enum>Qt::Vertical</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>20</width>
+                 <height>40</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item row="0" column="2">
+              <spacer name="horizontalSpacer_5">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeType">
+                <enum>QSizePolicy::Minimum</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item row="2" column="0">
+              <layout class="QGridLayout" name="gridLayout_31">
+               <item row="0" column="0">
+                <widget class="QLabel" name="label_21">
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="pixmap">
+                  <pixmap resource="1.qrc">:/images/images/logo_axcrypt.png</pixmap>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="0">
+                <widget class="QLabel" name="label_22">
+                 <property name="text">
+                  <string>     Clef</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item row="6" column="0">
+              <layout class="QGridLayout" name="gridLayout_32">
+               <item row="1" column="0">
+                <widget class="QLabel" name="label_23">
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="pixmap">
+                  <pixmap resource="1.qrc">:/images/images/document_encrypted_gold.png</pixmap>
+                 </property>
+                </widget>
+               </item>
+               <item row="3" column="0">
+                <spacer name="verticalSpacer_23">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>20</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+               <item row="2" column="0">
+                <widget class="QLabel" name="label_24">
+                 <property name="text">
+                  <string>Texte crypté</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="0">
+                <spacer name="verticalSpacer_24">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>20</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_5">
+       <attribute name="icon">
+        <iconset resource="1.qrc">
+         <normaloff>:/images/images/vernam.png</normaloff>:/images/images/vernam.png</iconset>
+       </attribute>
+       <attribute name="title">
+        <string/>
+       </attribute>
+       <layout class="QHBoxLayout" name="horizontalLayout_4">
+        <item>
+         <widget class="QFrame" name="frame_5">
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Plain</enum>
+          </property>
+          <property name="lineWidth">
+           <number>3</number>
+          </property>
+          <property name="midLineWidth">
+           <number>3</number>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_7">
+           <property name="sizeConstraint">
+            <enum>QLayout::SetDefaultConstraint</enum>
+           </property>
+           <item>
+            <layout class="QGridLayout" name="gridLayout_33">
+             <property name="leftMargin">
+              <number>10</number>
+             </property>
+             <item row="0" column="0">
+              <layout class="QGridLayout" name="gridLayout_34">
+               <item row="2" column="0">
+                <widget class="QLabel" name="label_25">
+                 <property name="text">
+                  <string> Texte Clair</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="3" column="0">
+                <spacer name="verticalSpacer_25">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>20</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+               <item row="0" column="0">
+                <spacer name="verticalSpacer_26">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>20</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+               <item row="1" column="0">
+                <widget class="QLabel" name="label_26">
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="pixmap">
+                  <pixmap resource="1.qrc">:/images/images/text-plain-icon.png</pixmap>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item row="6" column="3">
+              <layout class="QVBoxLayout" name="verticalLayout_9">
+               <item>
+                <widget class="QToolButton" name="toolButton_29">
+                 <property name="text">
+                  <string>  Enregistrer </string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="1.qrc">
+                   <normaloff>:/images/images/Save-icon.png</normaloff>:/images/images/Save-icon.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>48</width>
+                   <height>48</height>
+                  </size>
+                 </property>
+                 <property name="toolButtonStyle">
+                  <enum>Qt::ToolButtonTextUnderIcon</enum>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QToolButton" name="toolButton_30">
+                 <property name="text">
+                  <string>     Copier     </string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="1.qrc">
+                   <normaloff>:/images/images/copy-icon.png</normaloff>:/images/images/copy-icon.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>48</width>
+                   <height>48</height>
+                  </size>
+                 </property>
+                 <property name="toolButtonStyle">
+                  <enum>Qt::ToolButtonTextUnderIcon</enum>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QToolButton" name="toolButton_4">
+                 <property name="text">
+                  <string>       Coller     </string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="1.qrc">
+                   <normaloff>:/images/images/paste.png</normaloff>:/images/images/paste.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>48</width>
+                   <height>48</height>
+                  </size>
+                 </property>
+                 <property name="toolButtonStyle">
+                  <enum>Qt::ToolButtonTextUnderIcon</enum>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item row="4" column="1">
+              <layout class="QGridLayout" name="gridLayout_36">
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <item row="0" column="2">
+                <widget class="QToolButton" name="toolButton_32">
+                 <property name="text">
+                  <string>Nettoyer</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="1.qrc">
+                   <normaloff>:/images/images/Actions-edit-clear-icon.png</normaloff>:/images/images/Actions-edit-clear-icon.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>32</width>
+                   <height>32</height>
+                  </size>
+                 </property>
+                 <property name="toolButtonStyle">
+                  <enum>Qt::ToolButtonTextBesideIcon</enum>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="0">
+                <widget class="QToolButton" name="toolButton_31">
+                 <property name="text">
+                  <string>Crypter</string>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>32</width>
+                   <height>32</height>
+                  </size>
+                 </property>
+                 <property name="toolButtonStyle">
+                  <enum>Qt::ToolButtonTextBesideIcon</enum>
+                 </property>
+                 <property name="arrowType">
+                  <enum>Qt::DownArrow</enum>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="1">
+                <widget class="QToolButton" name="toolButton_33">
+                 <property name="text">
+                  <string>Decypter</string>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>32</width>
+                   <height>32</height>
+                  </size>
+                 </property>
+                 <property name="toolButtonStyle">
+                  <enum>Qt::ToolButtonTextBesideIcon</enum>
+                 </property>
+                 <property name="arrowType">
+                  <enum>Qt::UpArrow</enum>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item row="0" column="3">
+              <layout class="QGridLayout" name="gridLayout_37">
+               <item row="0" column="0">
+                <widget class="QToolButton" name="toolButton_34">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+                   <horstretch>0</horstretch>
+                   <verstretch>60</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="text">
+                  <string>Ouvrir Fichier</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="1.qrc">
+                   <normaloff>:/images/images/open-file-icon.png</normaloff>:/images/images/open-file-icon.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>48</width>
+                   <height>48</height>
+                  </size>
+                 </property>
+                 <property name="toolButtonStyle">
+                  <enum>Qt::ToolButtonTextUnderIcon</enum>
+                 </property>
+                 <property name="autoRaise">
+                  <bool>false</bool>
+                 </property>
+                 <property name="arrowType">
+                  <enum>Qt::NoArrow</enum>
+                 </property>
+                </widget>
+               </item>
+               <item row="2" column="0">
+                <widget class="QToolButton" name="toolButton_12">
+                 <property name="text">
+                  <string>       Copier    </string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="1.qrc">
+                   <normaloff>:/images/images/copy-icon.png</normaloff>:/images/images/copy-icon.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>48</width>
+                   <height>48</height>
+                  </size>
+                 </property>
+                 <property name="toolButtonStyle">
+                  <enum>Qt::ToolButtonTextUnderIcon</enum>
+                 </property>
+                </widget>
+               </item>
+               <item row="3" column="0">
+                <widget class="QToolButton" name="toolButton_35">
+                 <property name="text">
+                  <string>      Coller      </string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="1.qrc">
+                   <normaloff>:/images/images/paste.png</normaloff>:/images/images/paste.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>48</width>
+                   <height>48</height>
+                  </size>
+                 </property>
+                 <property name="toolButtonStyle">
+                  <enum>Qt::ToolButtonTextUnderIcon</enum>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item row="7" column="1">
+              <layout class="QGridLayout" name="gridLayout_38">
+               <property name="leftMargin">
+                <number>10</number>
+               </property>
+               <property name="topMargin">
+                <number>10</number>
+               </property>
+              </layout>
+             </item>
+             <item row="6" column="1">
+              <widget class="QPlainTextEdit" name="plainTextEdit_5">
+               <property name="font">
+                <font>
+                 <pointsize>12</pointsize>
+                </font>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="1">
+              <spacer name="verticalSpacer_27">
+               <property name="orientation">
+                <enum>Qt::Vertical</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>20</width>
+                 <height>40</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item row="0" column="1">
+              <widget class="QTextEdit" name="textEdit_5">
+               <property name="font">
+                <font>
+                 <pointsize>12</pointsize>
+                </font>
+               </property>
+              </widget>
+             </item>
+             <item row="5" column="1">
+              <spacer name="verticalSpacer_28">
+               <property name="orientation">
+                <enum>Qt::Vertical</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>20</width>
+                 <height>40</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item row="0" column="2">
+              <spacer name="horizontalSpacer_6">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeType">
+                <enum>QSizePolicy::Minimum</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item row="2" column="0">
+              <layout class="QGridLayout" name="gridLayout_39"/>
+             </item>
+             <item row="6" column="0">
+              <layout class="QGridLayout" name="gridLayout_40">
+               <item row="1" column="0">
+                <widget class="QLabel" name="label_29">
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="pixmap">
+                  <pixmap resource="1.qrc">:/images/images/document_encrypted_gold.png</pixmap>
+                 </property>
+                </widget>
+               </item>
+               <item row="3" column="0">
+                <spacer name="verticalSpacer_29">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>20</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+               <item row="2" column="0">
+                <widget class="QLabel" name="label_30">
+                 <property name="text">
+                  <string>Texte crypté</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="0">
+                <spacer name="verticalSpacer_30">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>20</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_2">
+       <attribute name="icon">
+        <iconset resource="1.qrc">
+         <normaloff>:/images/images/RSA1.png</normaloff>:/images/images/RSA1.png</iconset>
+       </attribute>
+       <attribute name="title">
+        <string/>
+       </attribute>
+       <layout class="QHBoxLayout" name="horizontalLayout_5">
+        <item>
+         <widget class="QFrame" name="frame_6">
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Plain</enum>
+          </property>
+          <property name="lineWidth">
+           <number>3</number>
+          </property>
+          <property name="midLineWidth">
+           <number>3</number>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_10">
+           <item>
+            <layout class="QGridLayout" name="gridLayout_41">
+             <property name="leftMargin">
+              <number>10</number>
+             </property>
+             <item row="0" column="2">
+              <spacer name="horizontalSpacer_7">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeType">
+                <enum>QSizePolicy::Minimum</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item row="0" column="3">
+              <layout class="QGridLayout" name="gridLayout_45">
+               <item row="2" column="0">
+                <widget class="QToolButton" name="toolButton_42">
+                 <property name="text">
+                  <string>      Coller      </string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="1.qrc">
+                   <normaloff>:/images/images/paste.png</normaloff>:/images/images/paste.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>35</width>
+                   <height>35</height>
+                  </size>
+                 </property>
+                 <property name="toolButtonStyle">
+                  <enum>Qt::ToolButtonTextUnderIcon</enum>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="0">
+                <widget class="QToolButton" name="toolButton_41">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+                   <horstretch>0</horstretch>
+                   <verstretch>60</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="text">
+                  <string>Ouvrir Fichier</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="1.qrc">
+                   <normaloff>:/images/images/open-file-icon.png</normaloff>:/images/images/open-file-icon.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>35</width>
+                   <height>35</height>
+                  </size>
+                 </property>
+                 <property name="toolButtonStyle">
+                  <enum>Qt::ToolButtonTextUnderIcon</enum>
+                 </property>
+                 <property name="autoRaise">
+                  <bool>false</bool>
+                 </property>
+                 <property name="arrowType">
+                  <enum>Qt::NoArrow</enum>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="0">
+                <widget class="QToolButton" name="toolButton_26">
+                 <property name="text">
+                  <string>     Copier     </string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="1.qrc">
+                   <normaloff>:/images/images/copy-icon.png</normaloff>:/images/images/copy-icon.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>35</width>
+                   <height>35</height>
+                  </size>
+                 </property>
+                 <property name="toolButtonStyle">
+                  <enum>Qt::ToolButtonTextUnderIcon</enum>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item row="7" column="1">
+              <layout class="QGridLayout" name="gridLayout_44">
+               <property name="leftMargin">
+                <number>0</number>
+               </property>
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <item row="0" column="0">
+                <widget class="QToolButton" name="toolButton_38">
+                 <property name="text">
+                  <string>Crypter</string>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>32</width>
+                   <height>32</height>
+                  </size>
+                 </property>
+                 <property name="toolButtonStyle">
+                  <enum>Qt::ToolButtonTextBesideIcon</enum>
+                 </property>
+                 <property name="arrowType">
+                  <enum>Qt::DownArrow</enum>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="2">
+                <widget class="QToolButton" name="toolButton_39">
+                 <property name="text">
+                  <string>Nettoyer</string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="1.qrc">
+                   <normaloff>:/images/images/Actions-edit-clear-icon.png</normaloff>:/images/images/Actions-edit-clear-icon.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>32</width>
+                   <height>32</height>
+                  </size>
+                 </property>
+                 <property name="toolButtonStyle">
+                  <enum>Qt::ToolButtonTextBesideIcon</enum>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="1">
+                <widget class="QToolButton" name="toolButton_40">
+                 <property name="text">
+                  <string>Decypter</string>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>32</width>
+                   <height>32</height>
+                  </size>
+                 </property>
+                 <property name="toolButtonStyle">
+                  <enum>Qt::ToolButtonTextBesideIcon</enum>
+                 </property>
+                 <property name="arrowType">
+                  <enum>Qt::UpArrow</enum>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item row="8" column="1">
+              <spacer name="verticalSpacer_34">
+               <property name="orientation">
+                <enum>Qt::Vertical</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>20</width>
+                 <height>40</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item row="9" column="1">
+              <spacer name="verticalSpacer_39">
+               <property name="orientation">
+                <enum>Qt::Vertical</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>20</width>
+                 <height>40</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item row="10" column="0">
+              <layout class="QGridLayout" name="gridLayout_48">
+               <item row="1" column="0">
+                <widget class="QLabel" name="label_35">
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="pixmap">
+                  <pixmap resource="1.qrc">:/images/images/document_encrypted_gold.png</pixmap>
+                 </property>
+                </widget>
+               </item>
+               <item row="3" column="0">
+                <spacer name="verticalSpacer_35">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>20</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+               <item row="2" column="0">
+                <widget class="QLabel" name="label_36">
+                 <property name="text">
+                  <string>Texte crypté</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="0">
+                <spacer name="verticalSpacer_36">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>20</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+              </layout>
+             </item>
+             <item row="6" column="1">
+              <spacer name="verticalSpacer_33">
+               <property name="orientation">
+                <enum>Qt::Vertical</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>20</width>
+                 <height>40</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item row="0" column="1">
+              <widget class="QTextEdit" name="textEdit_6">
+               <property name="font">
+                <font>
+                 <pointsize>12</pointsize>
+                </font>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="1">
+              <spacer name="verticalSpacer_37">
+               <property name="orientation">
+                <enum>Qt::Vertical</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>20</width>
+                 <height>40</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item row="2" column="0">
+              <layout class="QGridLayout" name="gridLayout_47">
+               <item row="0" column="0">
+                <widget class="QLabel" name="label_33">
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="pixmap">
+                  <pixmap resource="1.qrc">:/images/images/logo_axcrypt.png</pixmap>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="0">
+                <widget class="QLabel" name="label_34">
+                 <property name="text">
+                  <string>     Clef</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item row="4" column="1">
+              <layout class="QGridLayout" name="gridLayout_50">
+               <property name="leftMargin">
+                <number>10</number>
+               </property>
+               <property name="topMargin">
+                <number>10</number>
+               </property>
+               <item row="0" column="0">
+                <widget class="QLabel" name="label_42">
+                 <property name="font">
+                  <font>
+                   <pointsize>16</pointsize>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>e=</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="5">
+                <widget class="QLabel" name="label_43">
+                 <property name="font">
+                  <font>
+                   <pointsize>16</pointsize>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>φ (n)=</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="7">
+                <spacer name="horizontalSpacer_9">
+                 <property name="orientation">
+                  <enum>Qt::Horizontal</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>40</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+               <item row="0" column="3">
+                <spacer name="horizontalSpacer">
+                 <property name="orientation">
+                  <enum>Qt::Horizontal</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>40</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+               <item row="0" column="6">
+                <widget class="QLabel" name="label_38">
+                 <property name="font">
+                  <font>
+                   <pointsize>16</pointsize>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>283189</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="1">
+                <widget class="QLabel" name="label_39">
+                 <property name="font">
+                  <font>
+                   <pointsize>16</pointsize>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>565</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="2">
+                <spacer name="horizontalSpacer_13">
+                 <property name="orientation">
+                  <enum>Qt::Horizontal</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>40</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+               <item row="0" column="4">
+                <widget class="QFrame" name="frame_7">
+                 <property name="frameShape">
+                  <enum>QFrame::StyledPanel</enum>
+                 </property>
+                 <property name="frameShadow">
+                  <enum>QFrame::Raised</enum>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item row="4" column="0">
+              <layout class="QGridLayout" name="gridLayout_51">
+               <item row="1" column="0">
+                <widget class="QLabel" name="label_28">
+                 <property name="text">
+                  <string>Clef publique</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="0">
+                <widget class="QLabel" name="label_44">
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="pixmap">
+                  <pixmap resource="1.qrc">:/images/images/Key-Lock-512.png</pixmap>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item row="10" column="3">
+              <layout class="QGridLayout" name="gridLayout_43">
+               <item row="1" column="0">
+                <widget class="QToolButton" name="toolButton_37">
+                 <property name="text">
+                  <string>     Copier     </string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="1.qrc">
+                   <normaloff>:/images/images/copy-icon.png</normaloff>:/images/images/copy-icon.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>35</width>
+                   <height>35</height>
+                  </size>
+                 </property>
+                 <property name="toolButtonStyle">
+                  <enum>Qt::ToolButtonTextUnderIcon</enum>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="0">
+                <widget class="QToolButton" name="toolButton_36">
+                 <property name="text">
+                  <string>  Enregistrer </string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="1.qrc">
+                   <normaloff>:/images/images/Save-icon.png</normaloff>:/images/images/Save-icon.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>35</width>
+                   <height>35</height>
+                  </size>
+                 </property>
+                 <property name="toolButtonStyle">
+                  <enum>Qt::ToolButtonTextUnderIcon</enum>
+                 </property>
+                </widget>
+               </item>
+               <item row="2" column="0">
+                <widget class="QToolButton" name="toolButton_19">
+                 <property name="text">
+                  <string>      Coller      </string>
+                 </property>
+                 <property name="icon">
+                  <iconset resource="1.qrc">
+                   <normaloff>:/images/images/paste.png</normaloff>:/images/images/paste.png</iconset>
+                 </property>
+                 <property name="iconSize">
+                  <size>
+                   <width>35</width>
+                   <height>35</height>
+                  </size>
+                 </property>
+                 <property name="toolButtonStyle">
+                  <enum>Qt::ToolButtonTextUnderIcon</enum>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item row="11" column="1">
+              <layout class="QGridLayout" name="gridLayout_46">
+               <property name="leftMargin">
+                <number>10</number>
+               </property>
+               <property name="topMargin">
+                <number>10</number>
+               </property>
+              </layout>
+             </item>
+             <item row="2" column="1">
+              <layout class="QGridLayout" name="gridLayout_49">
+               <item row="0" column="2">
+                <widget class="QComboBox" name="comboBox">
+                 <item>
+                  <property name="text">
+                   <string>503</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>509</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>521</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>523</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>541</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>547</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>557</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>563</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>569</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>571</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>577</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>587</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>593</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>599</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>601</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>607</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>613</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>617</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>619</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>631</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>641</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>643</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>647</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>653</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>659</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>661</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>673</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>677</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>683</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>691</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>701</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>709</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>719</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>727</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>733</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>739</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>743</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>751</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>757</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>761</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>769</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>773</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>787</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>797</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>809</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>811</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>821</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>823</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>827</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>829</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>839</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>853</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>877</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>881</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>883</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>887</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>907</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>911</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>919</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>929</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>937</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>941</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>947</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>1019</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>1087</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>1153</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>1223</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>1291</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>1373</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>1451</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>1511</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>1583</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>1657</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>1733</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>1811</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>1889</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>1987</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>2053</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>2129</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>2287</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>2357</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>2423</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>2531</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>2617</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>2687</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>3067</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>3637</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>4289</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>5077</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>6043</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>7177</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>8443</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>9613</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>10489</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>13337</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>21169</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>41801</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>54779</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>63541</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>102181</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>302563</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>552659</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>822631</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>992801</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>1552909</string>
+                  </property>
+                 </item>
+                </widget>
+               </item>
+               <item row="0" column="3">
+                <spacer name="horizontalSpacer_11">
+                 <property name="orientation">
+                  <enum>Qt::Horizontal</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>40</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+               <item row="0" column="4">
+                <widget class="QLabel" name="label_41">
+                 <property name="font">
+                  <font>
+                   <pointsize>16</pointsize>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>q=</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="0">
+                <widget class="QLabel" name="label_27">
+                 <property name="text">
+                  <string/>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="6">
+                <spacer name="horizontalSpacer_8">
+                 <property name="orientation">
+                  <enum>Qt::Horizontal</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>40</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+               <item row="0" column="1">
+                <widget class="QLabel" name="label_40">
+                 <property name="font">
+                  <font>
+                   <pointsize>16</pointsize>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>p=</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="5">
+                <widget class="QComboBox" name="comboBox_3">
+                 <item>
+                  <property name="text">
+                   <string>563</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>569</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>571</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>577</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>587</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>593</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>599</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>601</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>607</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>613</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>617</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>619</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>631</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>641</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>643</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>647</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>653</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>659</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>661</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>673</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>677</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>683</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>691</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>701</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>709</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>719</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>727</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>733</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>739</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>743</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>751</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>757</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>761</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>769</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>773</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>787</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>797</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>809</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>811</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>821</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>823</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>827</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>829</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>839</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>853</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>877</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>881</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>883</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>887</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>907</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>911</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>919</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>929</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>937</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>941</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>947</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>1019</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>1087</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>1153</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>1223</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>1291</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>1373</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>1451</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>1511</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>1583</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>1657</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>1733</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>1811</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>1889</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>1987</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>2053</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>2129</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>2287</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>2357</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>2423</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>2531</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>2617</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>2687</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>3067</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>3637</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>4289</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>5077</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>6043</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>7177</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>8443</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>9613</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>10489</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>13337</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>21169</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>41801</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>54779</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>63541</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>102181</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>302563</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>552659</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>822631</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>992801</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>1552909</string>
+                  </property>
+                 </item>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item row="3" column="1">
+              <layout class="QVBoxLayout" name="verticalLayout_8"/>
+             </item>
+             <item row="0" column="0">
+              <layout class="QGridLayout" name="gridLayout_42">
+               <item row="2" column="0">
+                <widget class="QLabel" name="label_31">
+                 <property name="text">
+                  <string> Texte Clair</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="3" column="0">
+                <spacer name="verticalSpacer_31">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>20</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+               <item row="0" column="0">
+                <spacer name="verticalSpacer_32">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>20</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+               <item row="1" column="0">
+                <widget class="QLabel" name="label_32">
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="pixmap">
+                  <pixmap resource="1.qrc">:/images/images/text-plain-icon.png</pixmap>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item row="5" column="1">
+              <spacer name="verticalSpacer_38">
+               <property name="orientation">
+                <enum>Qt::Vertical</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>20</width>
+                 <height>40</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item row="10" column="1">
+              <widget class="QPlainTextEdit" name="plainTextEdit_6">
+               <property name="font">
+                <font>
+                 <pointsize>12</pointsize>
+                </font>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="1.qrc"/>
+ </resources>
+ <connections/>
+</ui>
